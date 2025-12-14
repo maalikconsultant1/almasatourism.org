@@ -1,9 +1,9 @@
 {
-  "cleanUrls": true,
-  "trailingSlash": false,
+  "builds": [],
   "routes": [
     { "src": "/", "dest": "/index.html" },
     { "src": "/audit/?", "dest": "/audit/index.html" },
-    { "src": "/vat-guide/?", "dest": "/vat-guide/index.html" }
+    { "src": "/vat-guide/?", "dest": "/vat-guide/index.html" },
+    { "src": "/(.*)", "dest": "/index.html" }
   ]
 }

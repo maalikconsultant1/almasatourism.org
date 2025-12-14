@@ -1,5 +1,4 @@
 {
-  "builds": [],
   "routes": [
     { "src": "/", "dest": "/index.html" },
     { "src": "/audit/?", "dest": "/audit/index.html" },

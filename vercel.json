@@ -1,11 +1,6 @@
 {
-  "outputDirectory": ".",
-  "builds": [],
-  "routes": [
-    { "src": "/", "dest": "/index.html" },
-    { "src": "/audit/?", "dest": "/audit/index.html" },
-    { "src": "/vat/?", "dest": "/vat/index.html" },
-    { "src": "/vat-guide/?", "dest": "/vat-guide/index.html" },
-    { "src": "/(.*)", "dest": "/index.html" }
+  "rewrites": [
+    { "source": "/audit", "destination": "/audit.html" },
+    { "source": "/vat", "destination": "/vat.html" }
   ]
 }

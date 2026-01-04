@@ -6,7 +6,6 @@
   <meta name="description" content="Almasa Tourism: Craft your bespoke UAE journey with daily/weekly/monthly tours + UAE compliance audit ($49 USDT) and free VAT guide.">
   <title>Almasa Tourism — Crafting Your Bespoke UAE Journey</title>
   <style>
-    /* Add your own CSS here if needed */
     body {
       font-family: 'Poppins', system-ui, sans-serif;
       margin: 0;
@@ -18,12 +17,19 @@
       background: #1e40af;
       padding: 12px 20px;
       text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
     }
     .navbar a {
       color: white;
       text-decoration: none;
       margin: 0 16px;
       font-weight: 500;
+      transition: opacity 0.3s;
+    }
+    .navbar a:hover {
+      opacity: 0.8;
     }
     .hero {
       background: url('https://via.placeholder.com/1920x800?text=UAE+Skyline') center/cover no-repeat;

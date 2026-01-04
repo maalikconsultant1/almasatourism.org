@@ -6,6 +6,7 @@
   <meta name="description" content="Almasa Tourism: Craft your bespoke UAE journey with daily/weekly/monthly tours + UAE compliance audit ($49 USDT) and free VAT guide.">
   <title>Almasa Tourism — Crafting Your Bespoke UAE Journey</title>
   <style>
+    /* Add your own CSS here if needed */
     body {
       font-family: 'Poppins', system-ui, sans-serif;
       margin: 0;
@@ -76,6 +77,13 @@
       font-size: 1rem;
       box-shadow: 0 4px 12px rgba(79, 70, 229, 0.3);
     }
+    section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+    section:nth-child(even) {
+      background: #fff;
+    }
     .footer {
       background: #1e40af;
       color: white;
@@ -114,11 +122,39 @@
     </div>
   </div>
 
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Almasa Tourism</h2>
+    <p>We are a premium UAE travel partner offering bespoke experiences for local and international travelers — from desert safaris to Golden Visa support.</p>
+  </section>
+
+  <!-- Tours Section -->
+  <section id="tours">
+    <h2>Our Tour Packages</h2>
+    <p>Daily, weekly, and monthly tours across Dubai, Abu Dhabi, Sharjah, and Fujairah — tailored to your interests.</p>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services">
+    <h2>Our Services</h2>
+    <p>Beyond tourism, we offer UAE compliance audits and VAT guidance to help you establish or expand your business in the UAE.</p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Reach out via WhatsApp or email for tour bookings or compliance inquiries.</p>
+  </section>
+
   <!-- Footer -->
   <div class="footer">
     🌴 Desert Safaris • 🕌 City Tours • 🏖️ Coastal Getaways • 🏢 Golden Visa Support<br>
     WhatsApp (Business): <a href="https://wa.me/923005473874">+92 300 5473874</a><br>
     WhatsApp (MD/OM): <a href="https://wa.me/971522080536">+971 52 208 0536</a> | USDT (TRC-20) Accepted
   </div>
+
+  <!-- Hidden routes for micro-SaaS -->
+  <a href="/audit" style="display:none;"></a>
+  <a href="/vat" style="display:none;"></a>
 </body>
 </html>

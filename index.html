@@ -3,8 +3,18 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Almasa Tourism: Craft your bespoke UAE journey with daily/weekly/monthly tours + UAE compliance audit ($49 USDT) and free VAT guide.">
-  <title>Almasa Tourism — Crafting Your Bespoke UAE Journey</title>
+  <meta name="description" content="Discover your unique UAE journey with ALMASA Tourism. Experience personalized tours, luxury travel, and local expertise across Al-Fujairah and the Emirates. Plan your adventure today for unforgettable holidays, cultural exploration, and seamless travel services.">
+  <title>ALMASA Tourism — Crafting Your Bespoke UAE Journey</title>
+  
+  <!-- Google Analytics 4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-TE72W7Q3E3"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-TE72W7Q3E3');
+  </script>
+
   <style>
     body {
       font-family: 'Poppins', system-ui, sans-serif;
@@ -24,16 +34,12 @@
     .navbar a {
       color: white;
       text-decoration: none;
-      margin: 0 16px;
+      margin: 0 12px;
       font-weight: 500;
-      transition: opacity 0.3s;
-    }
-    .navbar a:hover {
-      opacity: 0.8;
     }
     .hero {
-      background: url('https://via.placeholder.com/1920x800?text=UAE+Skyline') center/cover no-repeat;
-      padding: 80px 20px;
+      background: url('https://via.placeholder.com/1920x800?text=UAE+Desert+%26+Skyline') center/cover no-repeat;
+      padding: 100px 20px;
       text-align: center;
       color: white;
       position: relative;
@@ -48,29 +54,22 @@
       background: rgba(0, 0, 0, 0.5);
     }
     .hero h1 {
-      font-size: 3rem;
-      margin-bottom: 0.5rem;
+      font-size: 3.2rem;
+      margin: 0 0 16px;
       text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
     }
     .hero em {
       font-style: italic;
       color: #d4af37;
-      font-weight: 500;
+      font-size: 1.4rem;
       display: block;
-      margin-top: 0.5rem;
-      font-size: 1.2rem;
-    }
-    .hero p {
-      font-size: 1.1rem;
-      max-width: 800px;
-      margin: 20px auto;
-      line-height: 1.6;
+      margin-bottom: 24px;
     }
     .btn-group {
       display: flex;
       justify-content: center;
       gap: 16px;
-      margin: 30px 0;
+      margin-top: 24px;
     }
     .btn {
       display: inline-block;
@@ -80,7 +79,6 @@
       text-decoration: none;
       border-radius: 999px;
       font-weight: 600;
-      font-size: 1rem;
       box-shadow: 0 4px 12px rgba(79, 70, 229, 0.3);
     }
     section {
@@ -96,7 +94,6 @@
       text-align: center;
       padding: 20px;
       font-size: 0.9rem;
-      line-height: 1.5;
     }
     .footer a {
       color: #d4af37;
@@ -109,57 +106,84 @@
   <div class="navbar">
     <a href="/">Home</a>
     <a href="#about">About</a>
+    <a href="#why-almasa">Why ALMASA</a>
+    <a href="#vip">VIP Services</a>
     <a href="#tours">Tours</a>
-    <a href="#services">Services</a>
-    <a href="#contact">Contact</a>
+    <a href="#leadership">Leadership</a>
+    <a href="#location">Location</a>
+    <a href="#safety">Safety Center</a>
     <a href="/audit">Audit</a>
     <a href="/vat">VAT Guide</a>
+    <a href="#contact">Contact</a>
   </div>
 
   <!-- Hero Section -->
   <div class="hero">
     <h1>ALMASA TOURISM</h1>
     <em>Crafting Your Bespoke UAE Journey</em>
-    <p>Experience luxury, adventure, and culture across the entire United Arab Emirates — from Dubai’s skyline to Abu Dhabi’s heritage, Sharjah’s culture to Fujairah’s mountains. Create unforgettable memories throughout the Emirates.</p>
-    
+    <p>Discover your unique UAE journey with personalized tours, luxury travel, and local expertise across Al-Fujairah and the Emirates.</p>
     <div class="btn-group">
-      <a href="mailto:info@almasatourism.org?subject=Tour Inquiry - Daily/Weekly/Monthly" class="btn">Book Now</a>
+      <a href="mailto:info@almasatourism.org?subject=Tour Inquiry" class="btn">Book Now</a>
       <a href="/audit" class="btn" style="background:#1e40af;">UAE Compliance Audit</a>
     </div>
   </div>
 
-  <!-- About Section -->
+  <!-- About -->
   <section id="about">
-    <h2>About Almasa Tourism</h2>
-    <p>We are a premium UAE travel partner offering bespoke experiences for local and international travelers — from desert safaris to Golden Visa support.</p>
+    <h2>About ALMASA Tourism</h2>
+    <p>Premium UAE travel partner offering bespoke experiences for local and international travelers.</p>
   </section>
 
-  <!-- Tours Section -->
+  <!-- Why ALMASA -->
+  <section id="why-almasa">
+    <h2>Why ALMASA</h2>
+    <p>Local expertise, luxury service, and personalized itineraries across the Emirates.</p>
+  </section>
+
+  <!-- VIP Services -->
+  <section id="vip">
+    <h2>VIP Services</h2>
+    <p>Exclusive access, private guides, and tailored luxury experiences.</p>
+  </section>
+
+  <!-- Tours -->
   <section id="tours">
-    <h2>Our Tour Packages</h2>
-    <p>Daily, weekly, and monthly tours across Dubai, Abu Dhabi, Sharjah, and Fujairah — tailored to your interests.</p>
+    <h2>Tours</h2>
+    <p>Daily, weekly, and monthly packages across Dubai, Abu Dhabi, Sharjah, and Fujairah.</p>
   </section>
 
-  <!-- Services Section -->
-  <section id="services">
-    <h2>Our Services</h2>
-    <p>Beyond tourism, we offer UAE compliance audits and VAT guidance to help you establish or expand your business in the UAE.</p>
+  <!-- Leadership -->
+  <section id="leadership">
+    <h2>Leadership</h2>
+    <p>Meet our team of UAE travel experts and local guides.</p>
   </section>
 
-  <!-- Contact Section -->
+  <!-- Location -->
+  <section id="location">
+    <h2>Location</h2>
+    <p>Based in Al-Fujairah, with services across all Emirates.</p>
+  </section>
+
+  <!-- Safety Center -->
+  <section id="safety">
+    <h2>Safety Center</h2>
+    <p>Your safety is our priority — trusted, licensed, and insured.</p>
+  </section>
+
+  <!-- Contact -->
   <section id="contact">
     <h2>Contact Us</h2>
-    <p>Reach out via WhatsApp or email for tour bookings or compliance inquiries.</p>
+    <p>WhatsApp: <a href="https://wa.me/923005473874">+92 300 5473874</a> | <a href="https://wa.me/971522080536">+971 52 208 0536</a><br>
+    Email: <a href="mailto:info@almasatourism.org">info@almasatourism.org</a></p>
   </section>
 
   <!-- Footer -->
   <div class="footer">
     🌴 Desert Safaris • 🕌 City Tours • 🏖️ Coastal Getaways • 🏢 Golden Visa Support<br>
-    WhatsApp (Business): <a href="https://wa.me/923005473874">+92 300 5473874</a><br>
-    WhatsApp (MD/OM): <a href="https://wa.me/971522080536">+971 52 208 0536</a> | USDT (TRC-20) Accepted
+    USDT (TRC-20) Accepted
   </div>
 
-  <!-- Hidden routes for micro-SaaS -->
+  <!-- Hidden routes for Vercel -->
   <a href="/audit" style="display:none;"></a>
   <a href="/vat" style="display:none;"></a>
 </body>
